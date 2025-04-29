@@ -1,9 +1,7 @@
-### Made by [@kilianvalkhof](https://twitter.com/kilianvalkhof)
+### reMade by [@pavelrozman](https://twitter.com/kilianvalkhof)
 
 #### Other projects:
 
-- 💻 [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once
-- 🖌️ [Superposition](https://superposition.design) - Kickstart your design system by extracting design tokens from your website
 
 ---
 
