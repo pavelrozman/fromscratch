@@ -205,7 +205,70 @@ body[data-platform=darwin] {
 [data-platform=darwin] .updater {
   padding-top: 2rem;
 }
+// Add this to your app.scss file
 
+.tabs-container {
+  display: flex;
+  background: $bgColor;
+  height: 36px;
+  overflow-x: auto;
+  -webkit-app-region: drag;
+}
+
+.tabs {
+  display: flex;
+  flex: 1;
+}
+
+.tab {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+  max-width: 200px;
+  cursor: pointer;
+  background: darken($bgColor, 3%);
+  margin-right: 1px;
+  position: relative;
+  -webkit-app-region: no-drag;
+}
+
+.tab.active {
+  background: lighten($bgColor, 5%);
+}
+
+.tab-title {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.close-tab {
+  background: none;
+  border: none;
+  color: $textColor;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close-tab:hover {
+  color: lighten($textColor, 20%);
+}
+
+.new-tab {
+  width: 36px;
+  background: darken($bgColor, 3%);
+  border: none;
+  color: $textColor;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+.new-tab:hover {
+  color: lighten($textColor, 20%);
+}
 .shortcuts {
   position:absolute;
   left:1rem;
